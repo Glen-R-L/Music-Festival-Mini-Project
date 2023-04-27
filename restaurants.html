@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="The ultimate music festival held on the tropical paradise of Craggy Island." />
+    <title>Lyre Music Festival 2023 Restaurants</title>
+    <link rel="icon" href="images/favicons/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artists.html">Featured Artists</a></li>
+            <li><a href="forms.html">Contact/Bookings</a></li>
+          </ul> <!-- end of navigation -->
+          <ul class="socials">
+            <li>
+              <a href="#"><img class="social-icons" src="images/twitter_icon.png" alt="twitter link"></a>
+            </li>
+            <li>
+              <a href="#"><img class="social-icons" src="images/facebook_icon.png" alt="facebook link"></a>
+            </li>
+            <li>
+              <a href="#"><img class="social-icons" src="images/instagram_icon.png" alt="instagram link"></a>
+            </li>
+          </ul> <!-- end of socials -->
+        </nav> <!-- end of nav -->
+        <h1 class="heading">Lyre Music Festival 2023: Nearby Restaurants</h1>
+      </header> <!-- end of header -->
+      <div class="main-content">
+        <div class="main-content-col-left">
+          <h2>Restaurant Preferences</h2>
+          <form action="mailto:lyrefest.co.uk" method="post">
+            <label for="restaurant-type-selection"><strong>What type of restaurant would you like to find?</strong></label>
+            <select id="restaurant-type-selection" name="selected-restaurant-type">
+              <option value="default">Select</option>
+              <option value="fish & chips">Fish & Chips</option>
+              <option value="chinese">Chinese</option>
+              <option value="indian">Indian</option>
+              <option value="irish Quisine">Irish Quisine</option>
+              <option value="other">Other</option>
+            </select><br><br>
+            <label class="emphasis" style="font-style: normal;">How many courses will you want for your meal?</label><br>
+            <input type="radio" id="just-mains" name="courses" value="just mains" checked>
+            <label for="just-mains">Just Mains</label>
+            <input type="radio" id="starter-and-mains" name="courses" value="starter & mains">
+            <label for="starter-and-mains">Starter and Mains</label>
+            <input type="radio" id="mains-and-dessert" name="courses" value="mains & dessert">
+            <label for="mains-and-dessert">Mains and Dessert</label>
+            <input type="radio" id="3-course" name="courses" value="3 courses">
+            <label for="3-course">All 3 Courses!</label><br><br>
+            <input type="submit" name="restaurant-preferences" value="submit">
+          </form> <!-- end of restaurant preferences form -->
+          <img src="images/restaurant.jpeg" id="restaurant-pic" alt="a craggy island restaurant">
+        </div> <!-- end of main-content-col-left -->
+        <div class="main-content-col-right">
+          <h2>Locate a Restaurant</h2>
+          <p>There are a select few restaurants on Craggy Island itself, and even more over on the immediate mainland. Look for a restaurant with your submitted preferences in mind, using the map below.</p>
+          <iframe id="rest-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2452.2187151423377!2d-10.658249684554928!3d52.07574827680953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDA0JzMyLjciTiAxMMKwMzknMjEuOCJX!5e0!3m2!1sen!2suk!4v1676282547927!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> <!-- end of main-content-col-right -->
+      </div> <!-- end of main-content -->
+      <footer>
+        <span>© Glen R Levett 2023</span>
+      </footer> <!-- end of footer -->
+    </div> <!-- end of wrapper -->
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
+
+

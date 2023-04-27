@@ -1,0 +1,186 @@
+/* CSS for the Lyre Festival website */
+
+
+/* Element Selectors */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  background: url('../images/background_festival_image.jpeg') no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  overflow-x: hidden;
+  text-align: center;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+header {
+  border: .5px solid blue;
+  border-radius: 5px;
+  background-color: rgba(248, 220, 60, 0.6);
+}
+
+footer {
+  border: .5px solid blue;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgba(59, 253, 117, 0.6), rgba(248, 220, 60, 0.6));
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(84, 238, 24);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input, select {
+  margin: .2em;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 2px rgb(65, 62, 62);
+}
+
+footer span {
+  display: inline-block;
+  margin: 1em 0;
+}
+
+
+/* Class Selectors */
+
+.wrapper {
+  border: .5px solid blue;
+  border-radius: 5px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content-col-left, .main-content-col-right {
+  padding: 1em;
+  border: .5px solid blue;
+  border-radius: 5px;
+  background: linear-gradient(to top, rgba(59, 253, 117, 0.6), rgba(248, 220, 60, 0.6));
+}
+
+.main-content-col-left {
+  width: 50%;
+}
+
+.main-content-col-left fieldset {
+  padding: 1em;
+  border: 1px groove rgb(221, 100, 52);
+  border-radius: 5px;
+  margin: .85em 0 .3em 0;
+}
+
+.main-content-col-right {
+  width: 50%;
+}
+
+.main-content-col-right fieldset {
+  padding: 1.66em;
+  border: 1px groove rgb(221, 100, 52);
+  border-radius: 5px;
+  margin: .85em 0 0 0;
+}
+
+.heading {
+  clear: both;
+}
+
+.artist {
+  display: inline-block;
+}
+
+.artist:hover {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 3px 2px rgb(65, 62, 62);
+}
+
+.emphasis {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* ID Selectors */
+
+#musisland {
+  margin-top: 1em;
+  width: 95%;
+}
+
+#names {
+  float: left;
+  width: 50%;
+}
+
+#names ul {
+  padding-left: 0;
+}
+
+#names h3 {
+  font-size: 1.65em;
+  margin-top: 4.65em;
+}
+
+.artist-headings:hover {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 2px rgb(65, 62, 62);
+}
+
+#pics {
+  float: right;
+  width: 50%;
+}
+
+#about-artists {
+  font-size: 15px;
+  margin-top: 3em;
+}
+
+#about-artists li p {
+  margin-top: 1.54em;
+}
+
+#restaurant-pic {
+  margin-top: 1.25em;
+  width: 95%;
+}
+
+#place-map, #rest-map {
+  display: inline-block;
+  width: 95%;
+  height: 41vh;
+}
+
+#place-map {
+  margin: -.25em 0 0 0;
+}
+
+#rest-map {
+  margin: 4.75em 0 .1em 0;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+/* CSS for the Lyre Festival website navbar */
+
+.navigation, .socials, .navigation li, .socials li {
+  display: inline-block;
+}
+
+.navigation {
+  width: 70%;
+  float: left;
+  padding-left: 0;
+}
+
+.navigation li {
+  padding: 0 .3em;
+}
+
+.socials {
+  width: 30%;
+  float: right;
+  margin-top: 1em;
+  margin-right: -1em;
+  padding-left: 0;
+}
+
+.navigation li:hover {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 3px 2px rgb(65, 62, 62);
+}
+
+.socials li {
+  padding: .3em;
+  margin: 0 .1em;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 255);
+}
+
+.socials li:hover {
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 2px 3px 2px rgb(65, 62, 62);
+}
+
+.social-icons {
+  width: 1.75em;
+  padding: 0;
+}
